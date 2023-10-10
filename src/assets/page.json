@@ -1,0 +1,233 @@
+{
+    "nav" : {
+        "refs" : [
+            {"path" : "/", "name" : "Home"},
+            {"path" : "/projects", "name" : "Projects"},
+            {"path" : "/contact", "name" : "Contact"}
+        ],
+        "options" : {
+            "bodyClasses" : "navbar-side flex flex-col justify-center w-35 absolute",
+            "refClasses" : "navbar-item text-center"
+        }
+    },
+    "content" : {
+        "routes" : [
+            {
+                "path" : "/", 
+                "pageContent" : [
+                    {
+                        "type" : "heading",
+                        "options" : {
+                            "classes" : "float-right text-6xl",
+                            "text" : "Welcome!"
+                        }
+                    },
+                    {
+                        "type" : "simplediv",
+                        "options" : {
+                            "classes" : "flex"
+                        },
+                        "children" : [
+                            {
+                                "type" : "image",
+                                "options" : {
+                                    "classes" : "rounded-full",
+                                    "src" : "jesuslara.png"
+                                }
+                            },
+                            {
+                                "type" : "simplediv",
+                                "options" : {
+                                    "classes" : "ml-7"
+                                },
+                                "children" : [
+                                    {
+                                        "type" : "heading",
+                                        "options" : {
+                                            "classes" : "",
+                                            "text" : "Jesus Lara"
+                                        }
+                                    },
+                                    {
+                                        "type" : "subheading",
+                                        "options" : {
+                                            "classes" : "",
+                                            "text" : "Full-Stack web developer"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "path" : "/projects", 
+                "pageContent" : [
+                    {
+                        "type" : "heading",
+                        "options" : {
+                            "classes" : "",
+                            "text" : "My Projects"
+                        }
+                    },
+                    {
+                        "type" : "simplediv",
+                        "options" : {
+                            "classes" : "flex m-16"
+                        },
+                        "children" : [
+                            {
+                                "type" : "simplediv",
+                                "options" : {
+                                    "classes" : "project"
+                                },
+                                "children" : [
+                                    {
+                                        "type" : "subheading",
+                                        "options" : {
+                                            "classes" : "",
+                                            "text" : "QR Code Generator"
+                                        }
+                                    },
+                                    {
+                                        "type" : "reference",
+                                        "options" : {
+                                            "href" : "https://qrgenerator-c4xp.onrender.com",
+                                            "text" : "See Project"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type" : "simplediv",
+                                "options" : {
+                                    "classes" : "project"
+                                },
+                                "children" : [
+                                    {
+                                        "type" : "subheading",
+                                        "options" : {
+                                            "classes" : "",
+                                            "text" : "Task Manager"
+                                        }
+                                    },
+                                    {
+                                        "type" : "reference",
+                                        "options" : {
+                                            "href" : "https://taskmanager-xqwi.onrender.com",
+                                            "text" : "See Project"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type" : "simplediv",
+                                "options" : {
+                                    "classes" : "project"
+                                },
+                                "children" : [
+                                    {
+                                        "type" : "subheading",
+                                        "options" : {
+                                            "classes" : "",
+                                            "text" : "JSON Project"
+                                        }
+                                    },
+                                    {
+                                        "type" : "reference",
+                                        "options" : {
+                                            "href" : "https://jsonproject.onrender.com",
+                                            "text" : "See Project"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type" : "simplediv",
+                                "options" : {
+                                    "classes" : "project"
+                                },
+                                "children" : [
+                                    {
+                                        "type" : "subheading",
+                                        "options" : {
+                                            "classes" : "",
+                                            "text" : "Contact API"
+                                        }
+                                    },
+                                    {
+                                        "type" : "reference",
+                                        "options" : {
+                                            "href" : "https://contactapp-xx8t.onrender.com",
+                                            "text" : "See Project"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type" : "simplediv",
+                                "options" : {
+                                    "classes" : "project"
+                                },
+                                "children" : [
+                                    {
+                                        "type" : "subheading",
+                                        "options" : {
+                                            "classes" : "",
+                                            "text" : "File Uploader"
+                                        }
+                                    },
+                                    {
+                                        "type" : "reference",
+                                        "options" : {
+                                            "href" : "https://uploadapp-3eik.onrender.com",
+                                            "text" : "See Project"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "path" : "/contact", 
+                "pageContent" : [
+                    {
+                        "type" : "heading",
+                        "options" : {
+                            "classes" : "",
+                            "text" : "Contact Me"
+                        }
+                    },
+                    {
+                        "type" : "simplediv",
+                        "options" : {
+                            "classes" : ""
+                        },
+                        "children" : [
+                            {
+                                "type" : "simpletext",
+                                "options" : {
+                                    "classes" : "",
+                                    "text" : "Phone Number: 480-682-8333"
+                                }
+                            },
+                            {
+                                "type" : "simpletext",
+                                "options" : {
+                                    "classes" : "",
+                                    "text" : "Email: jl1191316@gmail.com"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "footer" : {
+            "classes" : "bg-black text-white"
+        }
+    }
+}

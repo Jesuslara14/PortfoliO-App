@@ -1,0 +1,28 @@
+.navbar-top{
+    display: flex;
+    padding: 10px;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+.navbar-side{
+    top: 0px;
+    position: fixed; 
+    z-index: 1; 
+    padding: 10px;
+    height: 100%;
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+
+.navbar-side-right{
+    right: 0px;
+}
+
+.navbar-item{
+    margin: 5px;
+    padding: 5px;
+    width: fit-content;
+}
